@@ -26,6 +26,7 @@ Manage Nginx proxy hosts with a simple, powerful interface.
 ![The Nginx Proxy Manager Hass.io add-on](images/screenshot.gif)
 
 ## About
+Slight change to allow proxy host logs to work according to NPM default.
 
 This add-on enables you to easily forward incoming connections to anywhere,
 including free SSL, without having to know too much about Nginx
