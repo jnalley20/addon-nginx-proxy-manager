@@ -10,8 +10,8 @@ sed -i 's#/data/logs/dead_host-{{ id }}.log#/proc/1/fd/1#g' \
     /opt/nginx-proxy-manager/src/backend/templates/dead_host.conf
 sed -i 's#/data/logs/redirection_host-{{ id }}.log#/proc/1/fd/1#g' \
     /opt/nginx-proxy-manager/src/backend/templates/redirection_host.conf
-sed -i 's#/data/logs/proxy_host-{{ id }}.log#/proc/1/fd/1#g' \
-    /opt/nginx-proxy-manager/src/backend/templates/proxy_host.conf
+#sed -i 's#/data/logs/proxy_host-{{ id }}.log#/proc/1/fd/1#g' \
+#    /opt/nginx-proxy-manager/src/backend/templates/proxy_host.conf
 sed -i 's#/data/logs/manager.log#/proc/1/fd/1#g' /etc/nginx/conf.d/default.conf
 sed -i 's#/data/logs/default.log#/proc/1/fd/1#g' /etc/nginx/conf.d/default.conf
 sed -i 's#/data/logs/letsencrypt-requests.log#/proc/1/fd/1#g' \
